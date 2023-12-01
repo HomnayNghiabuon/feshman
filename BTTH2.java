@@ -22,7 +22,7 @@ public class BTTH2 {
         q1.themSanPham(sp1, sp2);
         q1.hienThi();
         try {
-            q1.themSanPham("Sach");
+            q1.themSanPham("com.nghia.btth2.Sach");
         } catch (NoSuchMethodException ex) {
             Logger.getLogger(BTTH2.class.getName()).log(Level.SEVERE, null, ex);
         } catch (ClassNotFoundException ex) {
